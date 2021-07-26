@@ -57,9 +57,21 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.Header__info h2 {
+  margin: 1rem;
+}
+.Header__info h3 {
+  margin-bottom: 1rem;
+}
+.Header__info div {
+  margin: 1rem;
+}
+.Header__info p {
   margin: 1rem;
 }
 .Header__info-contact {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
