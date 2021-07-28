@@ -623,6 +623,26 @@ h3 {
   border-radius: 2rem;
   margin: 1.5rem;
 }
+.Interest .Interest-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1rem 2rem;
+}
+.Interest .Interest-items .Interest-item {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.8rem 2rem;
+  border-radius: 2rem;
+  background-color: #ececec;
+  padding: 0.5rem 1rem;
+}
+.Interest p {
+  font-size: 2rem;
+}
 
 * {
   box-sizing: border-box;
@@ -668,5 +688,44 @@ h3 {
   padding-bottom: 0;
   border-radius: 2rem;
   margin: 1.5rem;
+}
+.Languages-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1rem 2rem;
+}
+.Languages-items .Languages-item {
+/* border-subcontainer()
+        background-color: background-color */
+  width: 25rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.8rem 2rem;
+}
+.Languages-items .Languages-item p {
+  margin: 0 1rem;
+  font-size: 2rem;
+}
+.progress-bar-container {
+  width: 11rem;
+  height: 2rem;
+  border-radius: 1.25rem;
+  background-color: #ececec;
+}
+.progress-bar-container .progress-bar {
+  border-radius: 1.25rem;
+  height: 2rem;
+  background-color: #299ed1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.progress-bar-container .progress-bar span {
+  font-size: 1rem;
+  color: #fff;
 }
 
