@@ -550,15 +550,16 @@ h3 {
   width: 25rem;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   align-items: center;
-  margin: 0.8rem;
+  margin: 0.8rem 2rem;
 }
 .Skills-items .Skills-item p {
   margin: 0 1rem;
   font-size: 2rem;
 }
 .progress-bar-container {
-  width: 100%;
+  width: 11rem;
   height: 2rem;
   border-radius: 1.25rem;
   background-color: #ececec;
